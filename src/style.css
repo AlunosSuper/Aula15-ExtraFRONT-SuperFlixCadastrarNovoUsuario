@@ -1,0 +1,20 @@
+* {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12pt;
+}
+ 
+body {
+  background: #222;
+  color: #fff;
+  margin: 0;
+}
+ 
+::-webkit-scrollbar {
+  background: #222;
+  height: 8px;
+  width: 8px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
