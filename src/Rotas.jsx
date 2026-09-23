@@ -3,6 +3,8 @@ import Inicio from "./pages/Inicio"
 import Explorar from "./pages/Explorar"
 import Video from "./pages/Video"
 import Painel from "./pages/Painel"
+import Cadastro from "./pages/Cadastro"
+
 
 export default function Rotas() {
   return <BrowserRouter>
@@ -11,6 +13,7 @@ export default function Rotas() {
       <Route path="/explorar" element={ <Explorar/> }/>
       <Route path="/video/:codigo" element={ <Video/> }/>
       <Route path="/painel" element={ <Painel/> }/>
+      <Route path="/cadastro" element={ <Cadastro/> }/>
     </Routes>
   </BrowserRouter>
 }

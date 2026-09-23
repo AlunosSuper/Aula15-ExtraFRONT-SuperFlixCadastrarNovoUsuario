@@ -21,6 +21,7 @@ export default function Entrar() {
     <Modelo>
       <Formulario action="/explorar" method="GET">
         <FormularioTitulo> Entrar </FormularioTitulo>
+        <a href="/cadastro"> Não tem conta? Cadastre-se </a>
         <input type="text" placeholder="Email" required />
         <input type="password" placeholder="****" required />
         <input type="submit" value="Entrar" />
